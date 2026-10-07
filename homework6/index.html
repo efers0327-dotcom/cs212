@@ -1,36 +1,209 @@
-<!doctype html>
 <html lang="en">
+    
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+        <meta charset="UTF-8">
+        <title>ecb367Portfolio</title>
+        
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap</title>
-  <!-- TODO 1: Add the Bootstrap link here. -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <style>
-    /* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
-    .flex-container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-  </style>
-</head>
 
+        
+    </head>
 <body>
-  <div class="flex-container">
-    <!-- TODO 2: Add the Bootstrap Prebuilt Card here -->
-     <div class="card" style="width: 18rem;">
-  <img id="sunflower" src=".\flower.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+<div class="header">
+    
+</div>
+    <div class="container text-center ">
+    <div class="row">
+    <div class="col">
+        <div id= "heading" class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
+    Ethan Babineau's Portfolio
+    </div>
+</div>
+           
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#header"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Home</div></a>
+
+    <a class="navbar-brand" href="#occupations"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Occupations</div></a>
+
+    <a class="navbar-brand" href="#skills"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Skills</div></a>
+
+    <a class="navbar-brand" href="#hobbies"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Hobbies</div></a>
+    
+    <a class="navbar-brand" href="#projects"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Projects</div></a>
+
+    <a class="navbar-brand" href="#feet"><div class="p-3 mb-2 bg-info-subtle text-info-emphasis">Contact Me</div></a>
+
+    <a class="navbar-brand" href="./resume.html"><a class="btn btn-primary" href="./resume.html" role="button">Download My Resume</a></a>
+   
+        
+       
+    
+      </ul>
+    </div>
+  </div>
+</nav>      
+           
+           
+        
+        
+<div class="main_content">
+<div class="container text-center">
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1">
+    <div class="col"><div>
+                <table id="occupations" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th>Position</th>
+                            <th>Duration</th>
+
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Suns</td>
+                            <td>Underwater Welder</td>
+                            <td>50 Years</td>
+                        </tr>
+                        <tr>
+                            <td>APS</td>
+                            <td>Lineman</td>
+                            <td>60 Years</td>
+                        </tr>
+                        <tr>
+                            <td>British Gov</td>
+                            <td>SAS</td>
+                            <td>CLASSIFIED</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div></div>
+    <div class="col">
+        <div id="skills">
+                <h3>My Skills</h3>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Software Languages</h5>
+    </div>
+    <p class="mb-1">C++, C, Html/CSS, Python, Java.
+        I also know Blender and Unreal Engine! 
+    </p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Cooking</h5>
+      
+    </div>
+    <p class="mb-1">Chicken, beef, pork, all in various combos. Green chili, Teriyaki Chicken, Pulled Chicken Tacos, Sirloin Steak, Etc.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Communication</h5>
+      
+    </div>
+    
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Resilience</h5>
+      
+    </div>
+    
+    
+  </a>
+</div>
+            </div>
+        </div>
+    <div class="col"><div>
+                <h2 id="hobbies"> Games I Like To Play</h3>
+
+                <h3>Deadlock</h2>
+                <img src="./assets/images/deadlock.jpg" height="300">
+
+                <h3>Counter-Strike</h2>
+                <img src="./assets/images/counter-strike.jpg" height="300">
+
+                <h3>Dark Souls</h2>
+                <img src="./assets/images/dark-souls.jpg" height="300">
+
+                <h3>Crusader Kings III</h2>
+                <img src="./assets/images/ck3.jpg" height="300">
+
+            </div><h2>Projects</h2>
+        <div id="projects">
+                
+                
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/movie-ranking.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Movie Ranking Project</h5>
+                    
+                    <a href="./public/movie-ranking.html" class="btn btn-primary">Check it out!</a>
+                </div>
+                 <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/birthday-invite.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Birthday Invite Project</h5>
+                    
+                    <a href="./public/birthday-invite.html" class="btn btn-primary">Check it out!</a>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/steam.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Gaming Projects</h5>
+                    
+                    <a href="./lorem-ipsum.html" class="btn btn-primary">Check them out!</a>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/coding.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Coding Projects</h5>
+                    
+                    <a href="./lorem-ipsum.html" class="btn btn-primary">Check them out!</a>
+                </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="./assets/images/kitchen.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Cooking Projects</h5>
+                    
+                    <a href="./lorem-ipsum.html" class="btn btn-primary">Check them out!</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+            
+            
+             
+
+            
+    <div id="feet" class="footer">
+        
+        <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <a class="btn btn-primary" href="./about.html" role="button">About Me</a>
+    </div>
+    
+  </div>
+  <div class="row">
+    <div class="col">
+       <a class="btn btn-primary" href="./contact.html" role="button">Contact Me</a>
+    </div>
+    
+   
   </div>
 </div>
-    <!-- TODO 3: Change the image src to display the flower.jpg image. -->
-  </div>
-</body>
+</div>
+            
 
-</html>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body></html>
