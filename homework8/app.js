@@ -1,6 +1,5 @@
 var hasDownloadedResume = false;
 const name = "Ethan";
-var userResponse;
 var resumeDownloads = 0;
 function showGreeting(name) { 
     document.getElementById("greeting").textContent=
@@ -47,9 +46,10 @@ function daysUntilDeadline(project, endDate){
     }
 }
 
-function addSkills(userResponse, skillList){
+function addSkills(){
+    let userResponse = document.getElementById("inputSkills").value;
     skillList.push(userResponse);
-    document.getElementById("skillListTxt").textContent=skillList.pop;
+    document.getElementById("skillListTxt").textContent+= skillList[(skillList.length)-1] + " ";
     ////////////////;
 }
 
@@ -78,9 +78,9 @@ button.addEventListener("click", () =>{
 ///
 //skil addon prompt
 //need to incorporate a list to the skills ol items
-const skillButton = document.getElementById("skillListTxt");
+const skillButton = document.getElementById("skillButton");
 skillButton.addEventListener("click", () =>{
-    userResponse = prompt("Please enter a skill I should learn:")
+    let userResponse = window.prompt("Please enter a skill I should learn:")
     if(userResponse !== null){
         addSkills(userResponse);
     }
