@@ -13,3 +13,5 @@
 <a href="https://efers0327-dotcom.github.io/cs212/homework7/"> Week 7 Homework Assignment</a>
 <br />
 <a href="https://efers0327-dotcom.github.io/cs212/homework8/"> Week 8 Homework Assignment</a>
+<br />
+<a href="https://efers0327-dotcom.github.io/cs212/homework9/"> Week 9 Homework Assignment</a>
